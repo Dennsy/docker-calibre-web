@@ -80,7 +80,7 @@ RUN \
 	/app/calibre-web && \
  curl -o \
  /tmp/calibre-web.tar.gz -L \
-	https://github.com/janeczku/calibre-web/archive/master.tar.gz && \
+	https://github.com/dennsy/calibre-web/archive/master.tar.gz && \
  tar xf \
  /tmp/calibre-web.tar.gz -C \
 	/app/calibre-web --strip-components=1 && \
